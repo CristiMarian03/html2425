@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aplicatia 3 curs 6</title>
+</head>
+
+<body>
+    <h1>Formular contract</h1>
+    <form action="">
+
+        <div>
+            <label for="">orasul</label>
+            <select name="oras" id="">  
+            
+            <option value="1">Bucuresti</option>
+            <option value="2">Voluntari</option>
+            <option value="3">Constanta</option>
+            <option value="4">Sinaia</option>
+        </select>
+        </div>
+        <div>
+            <label for="">Cursuri</label>
+            <select name="Cursuri[]" id="" multiple>
+                <option value="css">CSS</option>
+                <option value="html">HTML</option>
+                <option value="js">JS</option>
+                <option value="vue">VueJS</option>
+                <option value="node">NodeJs</option>
+            </select>
+        </div>
+        <div>
+            <label for="Mesaj" id=""></label>
+            <textarea name="mesaj" id=""></textarea>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Program cursuri</legend>
+                <input type="radio" name="Program" id="" value="dimineata">
+                <label for="">Dimineata</label>
+                <input type="radio" name="program" id="" value="pranz" checked>
+                <label for="">pranz</label>
+                <input type="radio" name="program" id="" value="seara">
+                <label for="">seara</label>
+            </fieldset>
+        </div>
+        <div>
+            <button type="submit">Trimite datele</button>
+        </div>
+    </form>
+</body>
+
+</html>
