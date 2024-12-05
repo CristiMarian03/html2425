@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    table > tbody > tr:nth-child(odd){
+        background-color: aqua;
+        
+    }
+    table > tbody > tr:nth-child(even){
+        background-color:blueviolet
+    }
+    table > tfoot > tr:first-child{
+        background-color: aquamarine;
+    }
+    table > tfoot > tr:last-child{
+        background-color: brown;
+    }
+    table {
+        text-align: center;
+        width: 800px;
+        margin: 20% auto ;
+        padding: 2em;
+
+    }
+    table > caption{
+        font-size: 25px;
+        font-style: italic;
+    }
+    
+        
+
+
+  
+</style>
+
+<body class="corpul">
+
+    <table class="tabla1">
+        <caption>Orase numar de masini -vechi</caption>
+        <tbody>
+            <tr>
+                <td>Timisoara</td>
+                <td>200</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td>Cluj</td>
+                <td>150</td>
+                <td>7000</td>
+            </tr>
+            <tr>
+                <td>Bucuresti</td>
+                <td>1200</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>Iasi</td>
+                <td>50</td>
+                <td>700</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>total</td>
+                <td>1600</td>
+                <td>12770</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total</td>
+
+                <td>18700</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
